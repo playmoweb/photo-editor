@@ -106,7 +106,6 @@ public final class PhotoEditorViewController: UIViewController {
         
         topToolbar.backgroundColor = UIColor.red
         
-        stickerButton.setImage(UIImage(named: "stickersButton.png"), for: .normal)
         stickerButton.imageView?.contentMode = .center
     }
     
