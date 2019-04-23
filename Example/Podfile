@@ -6,6 +6,6 @@ target 'editorTest' do
   use_frameworks!
 
   # Pods for editorTest
-  pod 'iOSPhotoEditor' 
+  pod 'iOSPhotoEditor', :git => 'https://github.com/playmoweb/photo-editor', :branch => 'master'
 
 end
