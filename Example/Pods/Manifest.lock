@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   iOSPhotoEditor:
-    :commit: 69d23fd7e414148d17e44f4cd371901b4a64b613
+    :commit: 240fa9094c13844360bf107607f1adfc2252d117
     :git: https://github.com/playmoweb/photo-editor
 
 SPEC CHECKSUMS:

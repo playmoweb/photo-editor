@@ -82,12 +82,12 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3MS-N5-3xY">
                     <rect key="frame" x="0.0" y="44" width="414" height="60"/>
                     <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Doi-2Z-r5q">
-                            <rect key="frame" x="197" y="0.0" width="205" height="60"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Doi-2Z-r5q">
+                            <rect key="frame" x="182" y="0.0" width="220" height="60"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ghm-bq-BmY">
                                     <rect key="frame" x="0.0" y="0.0" width="40" height="60"/>
-                                    <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="25"/>
+                                    <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="36"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
                                     <state key="normal" title="">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -98,7 +98,7 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLX-iy-2Rc">
-                                    <rect key="frame" x="55" y="0.0" width="40" height="60"/>
+                                    <rect key="frame" x="60" y="0.0" width="40" height="60"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
                                     <state key="normal" image="stickersButton.png">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -109,8 +109,8 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qm4-f6-DBr">
-                                    <rect key="frame" x="110" y="0.0" width="40" height="60"/>
-                                    <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="25"/>
+                                    <rect key="frame" x="120" y="0.0" width="40" height="60"/>
+                                    <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="36"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
                                     <state key="normal" title="">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -121,8 +121,8 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wH-LJ-SyD">
-                                    <rect key="frame" x="165" y="0.0" width="40" height="60"/>
-                                    <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="25"/>
+                                    <rect key="frame" x="180" y="0.0" width="40" height="60"/>
+                                    <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="32"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
                                     <state key="normal" title="">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
