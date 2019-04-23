@@ -104,6 +104,8 @@ public final class PhotoEditorViewController: UIViewController {
         stickersViewController = StickersViewController(nibName: "StickersViewController", bundle: Bundle(for: StickersViewController.self))
         hideControls()
         
+        topToolbar.backgroundColor = UIColor.red
+        
         stickerButton.setImage(UIImage(named: "stickersButton.png"), for: .normal)
         stickerButton.imageView?.contentMode = .center
     }
