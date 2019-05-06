@@ -94,6 +94,25 @@ class StickersViewController: UIViewController, UIGestureRecognizerDelegate {
             forCellWithReuseIdentifier: "EmojiCollectionViewCell")
         
     }
+    
+    private func scrollFirstTime() {
+        UIView.animate(withDuration: 0.4, delay: 0.0, usingSpringWithDamping: 1.0, initialSpringVelocity: 0.0, options: .curveEaseInOut, animations: {
+            self.scrollView.contentOffset = CGPoint(x: self.scrollView.bounds.width, y: 0.0)
+        }) { (_) in
+            self.delay(delay: 1.0, closure: {
+                UIView.animate(withDuration: 0.4, delay: 0.0, usingSpringWithDamping: 1.0, initialSpringVelocity: 0.0, options: .curveEaseInOut, animations: {
+                    self.scrollView.contentOffset = CGPoint.zero
+                })
+            })
+        }
+    }
+    
+    private func delay(delay: Double, closure: @escaping () -> Void) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
+            closure()
+        }
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         prepareBackgroundView()
@@ -102,14 +121,15 @@ class StickersViewController: UIViewController, UIGestureRecognizerDelegate {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        UIView.animate(withDuration: 0.6) { [weak self] in
-            guard let `self` = self else { return }
+        UIView.animate(withDuration: 0.6, animations: {
             let frame = self.view.frame
             let yComponent = self.partialView
             self.view.frame = CGRect(x: 0,
                                      y: yComponent,
                                      width: frame.width,
                                      height: UIScreen.main.bounds.height - self.partialView)
+        }) { (_) in
+            self.scrollFirstTime()
         }
     }
     
