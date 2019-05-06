@@ -96,13 +96,12 @@ class StickersViewController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     private func scrollFirstTime() {
-        self.scrollView.contentOffset = .zero
         UIView.animate(withDuration: 0.4, delay: 0.0, usingSpringWithDamping: 1.0, initialSpringVelocity: 0.0, options: .curveEaseInOut, animations: {
             self.scrollView.contentOffset = CGPoint(x: self.scrollView.bounds.width, y: 0.0)
         }) { (_) in
             self.delay(delay: 1.0, closure: {
                 UIView.animate(withDuration: 0.4, delay: 0.0, usingSpringWithDamping: 1.0, initialSpringVelocity: 0.0, options: .curveEaseInOut, animations: {
-                    self.scrollView.contentOffset = .zero
+                    self.scrollView.contentOffset = CGPoint.zero
                 })
             })
         }
