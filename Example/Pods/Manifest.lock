@@ -2,21 +2,15 @@ PODS:
   - iOSPhotoEditor (0.6)
 
 DEPENDENCIES:
-  - iOSPhotoEditor (from `https://github.com/playmoweb/photo-editor`, branch `master`)
+  - iOSPhotoEditor (from `..`)
 
 EXTERNAL SOURCES:
   iOSPhotoEditor:
-    :branch: master
-    :git: https://github.com/playmoweb/photo-editor
-
-CHECKOUT OPTIONS:
-  iOSPhotoEditor:
-    :commit: f79944f5c68d3c294e7121442998950d8db4878f
-    :git: https://github.com/playmoweb/photo-editor
+    :path: ".."
 
 SPEC CHECKSUMS:
   iOSPhotoEditor: d597c2797033bb06e2a705560ae748136c8ac2ea
 
-PODFILE CHECKSUM: e93c42983e2f26865d3f9036fc26e842a902c152
+PODFILE CHECKSUM: 06ba597e02962ebc8526bca44da73460610c99b7
 
 COCOAPODS: 1.6.1
