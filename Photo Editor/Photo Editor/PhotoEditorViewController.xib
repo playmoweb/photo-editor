@@ -150,8 +150,8 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9an-1W-thw">
-                            <rect key="frame" x="12" y="4" width="40" height="52"/>
-                            <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="40"/>
+                            <rect key="frame" x="12" y="-1" width="50" height="62"/>
+                            <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="50"/>
                             <size key="titleShadowOffset" width="1" height="0.0"/>
                             <state key="normal" title="">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -186,11 +186,11 @@
                     <rect key="frame" x="0.0" y="607" width="375" height="60"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ZRl-89-gRO">
-                            <rect key="frame" x="12" y="0.0" width="150" height="52"/>
+                            <rect key="frame" x="12" y="0.0" width="180" height="52"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mW4-Jz-sic">
-                                    <rect key="frame" x="0.0" y="0.0" width="40" height="52"/>
-                                    <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="40"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="52"/>
+                                    <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="50"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
                                     <state key="normal" title="">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -201,8 +201,8 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlw-H0-WcJ">
-                                    <rect key="frame" x="55" y="0.0" width="40" height="52"/>
-                                    <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="40"/>
+                                    <rect key="frame" x="65" y="0.0" width="50" height="52"/>
+                                    <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="50"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
                                     <state key="normal" title="">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -213,8 +213,8 @@
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kpe-Ez-Cio">
-                                    <rect key="frame" x="110" y="0.0" width="40" height="52"/>
-                                    <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="40"/>
+                                    <rect key="frame" x="130" y="0.0" width="50" height="52"/>
+                                    <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="50"/>
                                     <size key="titleShadowOffset" width="1" height="0.0"/>
                                     <state key="normal" title="">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
