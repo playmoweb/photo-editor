@@ -50,7 +50,7 @@ public final class PhotoEditorViewController: UIViewController {
     public var colors  : [UIColor] = []
     
     public weak var photoEditorDelegate: PhotoEditorDelegate?
-    weak var colorsCollectionViewDelegate: ColorsCollectionViewDelegate!
+    var colorsCollectionViewDelegate: ColorsCollectionViewDelegate!
     
     // list of controls to be hidden
     public var hiddenControls : [control] = []
