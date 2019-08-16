@@ -106,7 +106,7 @@
                                                 <constraint firstAttribute="width" constant="75" id="1gz-5b-jPV"/>
                                             </constraints>
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
-                                            <state key="normal" image="icon_pen">
+                                            <state key="normal" image="icon_pen.pdf">
                                                 <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.1532266695" colorSpace="calibratedRGB"/>
                                             </state>
@@ -120,7 +120,7 @@
                                                 <constraint firstAttribute="width" constant="75" id="x1P-Cj-ojG"/>
                                             </constraints>
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
-                                            <state key="normal" image="icon_smiley">
+                                            <state key="normal" image="icon_smiley.pdf">
                                                 <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                             </state>
                                             <connections>
@@ -133,7 +133,7 @@
                                                 <constraint firstAttribute="width" constant="75" id="Eol-QJ-N2n"/>
                                             </constraints>
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
-                                            <state key="normal" image="icon_text">
+                                            <state key="normal" image="icon_text.pdf">
                                                 <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.1532266695" colorSpace="calibratedRGB"/>
                                             </state>
@@ -348,8 +348,8 @@
         </view>
     </objects>
     <resources>
-        <image name="icon_pen" width="95" height="95"/>
-        <image name="icon_smiley" width="95" height="95"/>
-        <image name="icon_text" width="95" height="95"/>
+        <image name="icon_pen.pdf" width="16" height="16"/>
+        <image name="icon_smiley.pdf" width="16" height="16"/>
+        <image name="icon_text.pdf" width="16" height="16"/>
     </resources>
 </document>

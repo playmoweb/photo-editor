@@ -48,6 +48,9 @@
 		263DF37D226F4E4900C84305 /* stickersButton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 263DF37A226F4E4800C84305 /* stickersButton@3x.png */; };
 		263DF37E226F4E4900C84305 /* stickersButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 263DF37B226F4E4800C84305 /* stickersButton.png */; };
 		263DF37F226F4E4900C84305 /* stickersButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 263DF37C226F4E4900C84305 /* stickersButton@2x.png */; };
+		632C97DF2306B51400385124 /* icon_pen.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 632C97DC2306B51400385124 /* icon_pen.pdf */; };
+		632C97E02306B51400385124 /* icon_smiley.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 632C97DD2306B51400385124 /* icon_smiley.pdf */; };
+		632C97E12306B51400385124 /* icon_text.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 632C97DE2306B51400385124 /* icon_text.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +97,9 @@
 		263DF37A226F4E4800C84305 /* stickersButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stickersButton@3x.png"; sourceTree = "<group>"; };
 		263DF37B226F4E4800C84305 /* stickersButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stickersButton.png; sourceTree = "<group>"; };
 		263DF37C226F4E4900C84305 /* stickersButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stickersButton@2x.png"; sourceTree = "<group>"; };
+		632C97DC2306B51400385124 /* icon_pen.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon_pen.pdf; sourceTree = "<group>"; };
+		632C97DD2306B51400385124 /* icon_smiley.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon_smiley.pdf; sourceTree = "<group>"; };
+		632C97DE2306B51400385124 /* icon_text.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = icon_text.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +213,9 @@
 		632C97DA2306AEC100385124 /* ressources */ = {
 			isa = PBXGroup;
 			children = (
+				632C97DC2306B51400385124 /* icon_pen.pdf */,
+				632C97DD2306B51400385124 /* icon_smiley.pdf */,
+				632C97DE2306B51400385124 /* icon_text.pdf */,
 				0565132D1EF489C0009EA38F /* icomoon.ttf */,
 				263DF37B226F4E4800C84305 /* stickersButton.png */,
 				263DF37C226F4E4900C84305 /* stickersButton@2x.png */,
@@ -296,15 +305,18 @@
 				0565133D1EF489C0009EA38F /* PhotoEditorViewController.xib in Resources */,
 				059EA7241EACB8790072C0FE /* Assets.xcassets in Resources */,
 				056513351EF489C0009EA38F /* ColorCollectionViewCell.xib in Resources */,
+				632C97E02306B51400385124 /* icon_smiley.pdf in Resources */,
 				263DF37E226F4E4900C84305 /* stickersButton.png in Resources */,
 				0565133A1EF489C0009EA38F /* PhotoCropEditorBorder@2x.png in Resources */,
 				0565133C1EF489C0009EA38F /* StickerCollectionViewCell.xib in Resources */,
 				056513371EF489C0009EA38F /* icomoon.ttf in Resources */,
 				056513381EF489C0009EA38F /* LaunchScreen.storyboard in Resources */,
+				632C97E12306B51400385124 /* icon_text.pdf in Resources */,
 				263DF37D226F4E4900C84305 /* stickersButton@3x.png in Resources */,
 				056513341EF489C0009EA38F /* StickersViewController.xib in Resources */,
 				056513361EF489C0009EA38F /* EmojiCollectionViewCell.xib in Resources */,
 				056513391EF489C0009EA38F /* PhotoCropEditorBorder.png in Resources */,
+				632C97DF2306B51400385124 /* icon_pen.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
