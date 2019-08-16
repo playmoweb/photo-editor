@@ -80,16 +80,16 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3MS-N5-3xY">
-                    <rect key="frame" x="0.0" y="32" width="375" height="60"/>
+                    <rect key="frame" x="0.0" y="32" width="375" height="75"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="54v-xR-Fqt">
-                            <rect key="frame" x="111" y="0.0" width="252" height="60"/>
+                            <rect key="frame" x="-29" y="0.0" width="392" height="75"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Doi-2Z-r5q">
-                                    <rect key="frame" x="16" y="0.0" width="220" height="60"/>
+                                    <rect key="frame" x="16" y="0.0" width="360" height="75"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ghm-bq-BmY">
-                                            <rect key="frame" x="0.0" y="0.0" width="40" height="60"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                             <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="36"/>
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" title="">
@@ -100,20 +100,13 @@
                                                 <action selector="cropButtonTapped:" destination="-1" eventType="touchUpInside" id="fa9-jd-guk"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLX-iy-2Rc">
-                                            <rect key="frame" x="60" y="0.0" width="40" height="60"/>
-                                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qm4-f6-DBr">
+                                            <rect key="frame" x="95" y="0.0" width="75" height="75"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="75" id="1gz-5b-jPV"/>
+                                            </constraints>
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
-                                            <state key="normal" image="stickersButton.png"/>
-                                            <connections>
-                                                <action selector="stickersButtonTapped:" destination="-1" eventType="touchUpInside" id="snI-Px-Ngx"/>
-                                            </connections>
-                                        </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qm4-f6-DBr">
-                                            <rect key="frame" x="120" y="0.0" width="40" height="60"/>
-                                            <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="36"/>
-                                            <size key="titleShadowOffset" width="1" height="0.0"/>
-                                            <state key="normal" title="">
+                                            <state key="normal" image="icon_pen">
                                                 <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.1532266695" colorSpace="calibratedRGB"/>
                                             </state>
@@ -121,11 +114,26 @@
                                                 <action selector="drawButtonTapped:" destination="-1" eventType="touchUpInside" id="uts-mM-XHI"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wH-LJ-SyD">
-                                            <rect key="frame" x="180" y="0.0" width="40" height="60"/>
-                                            <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="32"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLX-iy-2Rc">
+                                            <rect key="frame" x="190" y="0.0" width="75" height="75"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="75" id="x1P-Cj-ojG"/>
+                                            </constraints>
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
-                                            <state key="normal" title="">
+                                            <state key="normal" image="icon_smiley">
+                                                <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="stickersButtonTapped:" destination="-1" eventType="touchUpInside" id="snI-Px-Ngx"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wH-LJ-SyD">
+                                            <rect key="frame" x="285" y="0.0" width="75" height="75"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="75" id="Eol-QJ-N2n"/>
+                                            </constraints>
+                                            <size key="titleShadowOffset" width="1" height="0.0"/>
+                                            <state key="normal" image="icon_text">
                                                 <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.1532266695" colorSpace="calibratedRGB"/>
                                             </state>
@@ -136,7 +144,7 @@
                                     </subviews>
                                 </stackView>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="Doi-2Z-r5q" secondAttribute="trailing" constant="16" id="BO6-xa-S6N"/>
                                 <constraint firstAttribute="bottom" secondItem="Doi-2Z-r5q" secondAttribute="bottom" id="Jqy-ki-0rD"/>
@@ -150,7 +158,7 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9an-1W-thw">
-                            <rect key="frame" x="12" y="-1" width="50" height="62"/>
+                            <rect key="frame" x="12" y="6.5" width="50" height="62"/>
                             <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="50"/>
                             <size key="titleShadowOffset" width="1" height="0.0"/>
                             <state key="normal" title="">
@@ -167,7 +175,7 @@
                         <constraint firstItem="9an-1W-thw" firstAttribute="centerY" secondItem="3MS-N5-3xY" secondAttribute="centerY" id="1bY-xX-lhc"/>
                         <constraint firstItem="54v-xR-Fqt" firstAttribute="top" secondItem="3MS-N5-3xY" secondAttribute="top" id="Bym-S4-hEu"/>
                         <constraint firstAttribute="trailing" secondItem="54v-xR-Fqt" secondAttribute="trailing" constant="12" id="I1j-WS-KM1"/>
-                        <constraint firstAttribute="height" constant="60" id="RSV-Dw-76F"/>
+                        <constraint firstAttribute="height" constant="75" id="RSV-Dw-76F"/>
                         <constraint firstItem="9an-1W-thw" firstAttribute="leading" secondItem="3MS-N5-3xY" secondAttribute="leading" constant="12" id="lPL-cU-BVr"/>
                         <constraint firstAttribute="bottom" secondItem="54v-xR-Fqt" secondAttribute="bottom" id="x3w-7B-TvL"/>
                     </constraints>
@@ -231,7 +239,7 @@
                             <fontDescription key="fontDescription" name="icomoon" family="icomoon" pointSize="50"/>
                             <size key="titleShadowOffset" width="1" height="0.0"/>
                             <state key="normal" title="">
-                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleColor" red="0.31199148297309875" green="0.88839596509933472" blue="0.76077443361282349" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.1532266695" colorSpace="calibratedRGB"/>
                             </state>
                             <connections>
@@ -340,6 +348,8 @@
         </view>
     </objects>
     <resources>
-        <image name="stickersButton.png" width="40" height="40"/>
+        <image name="icon_pen" width="95" height="95"/>
+        <image name="icon_smiley" width="95" height="95"/>
+        <image name="icon_text" width="95" height="95"/>
     </resources>
 </document>
