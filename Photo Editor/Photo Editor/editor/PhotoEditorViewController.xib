@@ -104,6 +104,7 @@
                                             <rect key="frame" x="95" y="0.0" width="75" height="75"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="75" id="1gz-5b-jPV"/>
+                                                <constraint firstAttribute="height" constant="75" id="6TC-up-TVC"/>
                                             </constraints>
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="icon_pen.png">
@@ -117,6 +118,7 @@
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLX-iy-2Rc">
                                             <rect key="frame" x="190" y="0.0" width="75" height="75"/>
                                             <constraints>
+                                                <constraint firstAttribute="height" constant="75" id="Eua-NU-9q0"/>
                                                 <constraint firstAttribute="width" constant="75" id="x1P-Cj-ojG"/>
                                             </constraints>
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
@@ -131,6 +133,7 @@
                                             <rect key="frame" x="285" y="0.0" width="75" height="75"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="75" id="Eol-QJ-N2n"/>
+                                                <constraint firstAttribute="height" constant="75" id="oCY-Ks-UmX"/>
                                             </constraints>
                                             <size key="titleShadowOffset" width="1" height="0.0"/>
                                             <state key="normal" image="icon_text.png">
