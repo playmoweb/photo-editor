@@ -107,6 +107,7 @@ public final class PhotoEditorViewController: UIViewController {
         drawButton.imageView?.contentMode = .center
         stickerButton.imageView?.contentMode = .center
         textButton.imageView?.contentMode = .center
+        clearButton.imageView?.contentMode = .center
     }
     
     func configureCollectionView() {
