@@ -104,7 +104,9 @@ public final class PhotoEditorViewController: UIViewController {
         stickersViewController = StickersViewController(nibName: "StickersViewController", bundle: Bundle(for: StickersViewController.self))
         hideControls()
         
+        drawButton.imageView?.contentMode = .center
         stickerButton.imageView?.contentMode = .center
+        textButton.imageView?.contentMode = .center
     }
     
     func configureCollectionView() {
